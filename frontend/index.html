@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vazhi Thunai - Women's Safety</title>
+
+    <link rel="stylesheet" href="vazhi-thunai.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="brand">
+
+            <div class="brand-logo">
+                🛡️
+            </div>
+
+            <div class="brand-text">
+                <h2>Vazhi Thunai</h2>
+                <span>Women's Safety</span>
+            </div>
+
+        </div>
+
+
+        <nav class="navigation">
+
+            <button
+                class="nav-link active"
+                data-page="home">
+
+                Home
+
+            </button>
+
+
+            <button
+                class="nav-link"
+                data-page="safety">
+
+                Safety
+
+            </button>
+
+
+            <button
+                class="nav-link"
+                data-page="contacts">
+
+                Contacts
+
+            </button>
+
+
+            <button
+                class="nav-link"
+                data-page="location">
+
+                Location
+
+            </button>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- ================= MAIN APP ================= -->
+
+    <main class="app-container">
+
+
+        <!-- ==================================================
+             HOME PAGE
+        =================================================== -->
+
+        <section
+            class="page active-page"
+            id="home">
+
+
+            <div class="home-layout">
+
+
+                <!-- LEFT SIDE -->
+
+                <div class="home-content">
+
+                    <div class="active-badge">
+
+                        <span></span>
+
+                        Protection Active
+
+                    </div>
+
+
+                    <h1>
+
+                        Your safety,
+                        <br>
+
+                        <strong>always within reach.</strong>
+
+                    </h1>
+
+
+                    <p class="home-description">
+
+                        Vazhi Thunai provides a simple and
+                        fast way to trigger an emergency alert
+                        and share your current location with
+                        trusted contacts.
+
+                    </p>
+
+
+                    <div class="home-actions">
+
+                        <button
+                            class="primary-action"
+                            id="homeSosButton">
+
+                            🚨 Emergency SOS
+
+                        </button>
+
+
+                        <button
+                            class="secondary-action"
+                            id="voiceButton">
+
+                            🎙️ Start Voice SOS
+
+                        </button>
+
+                    </div>
+
+
+                    <div class="quick-stats">
+
+
+                        <div class="quick-stat">
+
+                            <strong>2 sec</strong>
+
+                            <span>
+                                SOS Trigger
+                            </span>
+
+                        </div>
+
+
+                        <div class="quick-stat">
+
+                            <strong>GPS</strong>
+
+                            <span>
+                                Location
+                            </span>
+
+                        </div>
+
+
+                        <div class="quick-stat">
+
+                            <strong>24/7</strong>
+
+                            <span>
+                                Protection
+                            </span>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- RIGHT SOS CARD -->
+
+                <div class="sos-card">
+
+                    <div class="sos-card-header">
+
+                        <div>
+
+                            <h3>
+                                Emergency SOS
+                            </h3>
+
+                            <p>
+                                Press and hold for 2 seconds
+                            </p>
+
+                        </div>
+
+
+                        <span class="ready-badge">
+                            READY
+                        </span>
+
+                    </div>
+
+
+                    <div class="sos-area">
+
+
+                        <button
+                            id="sosButton"
+                            class="sos-button">
+
+                            <div class="sos-button-content">
+
+                                <span class="sos-icon">
+                                    🚨
+                                </span>
+
+                                <strong>
+                                    SOS
+                                </strong>
+
+                                <small>
+                                    HOLD 2 SEC
+                                </small>
+
+                            </div>
+
+                        </button>
+
+
+                        <div class="progress-track">
+
+                            <div
+                                id="progressBar"
+                                class="progress-bar">
+                            </div>
+
+                        </div>
+
+
+                        <p id="holdText">
+
+                            Hold the button for 2 seconds
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- HOME FEATURES -->
+
+            <div class="feature-grid">
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon blue">
+                        📍
+                    </div>
+
+                    <h3>
+                        Live Location
+                    </h3>
+
+                    <p>
+                        Current location can be collected
+                        for emergency sharing.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon green">
+                        🎙️
+                    </div>
+
+                    <h3>
+                        Voice Trigger
+                    </h3>
+
+                    <p>
+                        Voice input can be sent to the
+                        backend for detection.
+                    </p>
+
+                </div>
+
+
+                <div class="feature-card">
+
+                    <div class="feature-icon orange">
+                        👥
+                    </div>
+
+                    <h3>
+                        Trusted Contacts
+                    </h3>
+
+                    <p>
+                        Emergency communication can be
+                        handled through trusted contacts.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             SAFETY PAGE
+        =================================================== -->
+
+        <section
+            class="page"
+            id="safety">
+
+
+            <div class="page-heading">
+
+                <span>
+                    SAFETY OVERVIEW
+                </span>
+
+                <h1>
+                    Protection Status
+                </h1>
+
+                <p>
+                    Check the current status of your
+                    emergency protection features.
+                </p>
+
+            </div>
+
+
+            <div class="status-grid">
+
+
+                <div class="status-card">
+
+                    <div class="status-icon blue">
+                        📍
+                    </div>
+
+                    <div class="status-content">
+
+                        <small>
+                            LOCATION
+                        </small>
+
+                        <h3 id="safetyLocationStatus">
+                            Ready
+                        </h3>
+
+                        <p>
+                            GPS location service
+                        </p>
+
+                    </div>
+
+                    <span class="status-check">
+                        ✓
+                    </span>
+
+                </div>
+
+
+                <div class="status-card">
+
+                    <div class="status-icon green">
+                        🎙️
+                    </div>
+
+                    <div class="status-content">
+
+                        <small>
+                            VOICE DETECTION
+                        </small>
+
+                        <h3 id="voiceStatus">
+                            Ready
+                        </h3>
+
+                        <p>
+                            Vosk backend
+                        </p>
+
+                    </div>
+
+                    <span class="status-check">
+                        ✓
+                    </span>
+
+                </div>
+
+
+                <div class="status-card">
+
+                    <div class="status-icon orange">
+                        👥
+                    </div>
+
+                    <div class="status-content">
+
+                        <small>
+                            TRUSTED CONTACTS
+                        </small>
+
+                        <h3>
+                            Configured
+                        </h3>
+
+                        <p>
+                            Emergency network
+                        </p>
+
+                    </div>
+
+                    <span class="status-check">
+                        ✓
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="protection-panel">
+
+                <div class="large-protection-icon">
+                    🛡️
+                </div>
+
+                <div>
+
+                    <span>
+                        PROTECTION STATUS
+                    </span>
+
+                    <h2>
+                        Your protection is active
+                    </h2>
+
+                    <p>
+                        Frontend is ready to communicate
+                        with the FastAPI backend.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="flow-section">
+
+                <span class="section-label">
+                    EMERGENCY FLOW
+                </span>
+
+                <h2>
+                    How it works
+                </h2>
+
+
+                <div class="flow-grid">
+
+
+                    <div class="flow-card">
+
+                        <div class="flow-number">
+                            01
+                        </div>
+
+                        <h3>
+                            Trigger
+                        </h3>
+
+                        <p>
+                            User holds SOS for 2 seconds
+                            or starts voice detection.
+                        </p>
+
+                    </div>
+
+
+                    <div class="flow-card">
+
+                        <div class="flow-number">
+                            02
+                        </div>
+
+                        <h3>
+                            Location
+                        </h3>
+
+                        <p>
+                            Browser location service
+                            provides coordinates.
+                        </p>
+
+                    </div>
+
+
+                    <div class="flow-card">
+
+                        <div class="flow-number">
+                            03
+                        </div>
+
+                        <h3>
+                            FastAPI
+                        </h3>
+
+                        <p>
+                            Emergency information is
+                            sent to the backend.
+                        </p>
+
+                    </div>
+
+
+                    <div class="flow-card">
+
+                        <div class="flow-number">
+                            04
+                        </div>
+
+                        <h3>
+                            Alert
+                        </h3>
+
+                        <p>
+                            Backend handles the emergency
+                            communication.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             CONTACTS PAGE
+        =================================================== -->
+
+        <section
+            class="page"
+            id="contacts">
+
+
+            <div class="page-heading">
+
+                <span>
+                    EMERGENCY NETWORK
+                </span>
+
+                <h1>
+                    Trusted Contacts
+                </h1>
+
+                <p>
+                    Emergency contacts configured for
+                    receiving alerts.
+                </p>
+
+            </div>
+
+
+            <div class="contacts-grid">
+
+
+                <div class="contact-card">
+
+                    <div class="contact-avatar">
+                        A
+                    </div>
+
+                    <div class="contact-details">
+
+                        <h3>
+                            Amma
+                        </h3>
+
+                        <p>
+                            Trusted Contact
+                        </p>
+
+                        <span>
+                            ● Active
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="contact-call"
+                        data-contact="Amma">
+
+                        📞
+
+                    </button>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <div class="contact-avatar">
+                        F
+                    </div>
+
+                    <div class="contact-details">
+
+                        <h3>
+                            Best Friend
+                        </h3>
+
+                        <p>
+                            Trusted Contact
+                        </p>
+
+                        <span>
+                            ● Active
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="contact-call"
+                        data-contact="Best Friend">
+
+                        📞
+
+                    </button>
+
+                </div>
+
+
+                <div class="contact-card">
+
+                    <div class="contact-avatar">
+                        S
+                    </div>
+
+                    <div class="contact-details">
+
+                        <h3>
+                            Sister
+                        </h3>
+
+                        <p>
+                            Trusted Contact
+                        </p>
+
+                        <span>
+                            ● Active
+                        </span>
+
+                    </div>
+
+                    <button
+                        class="contact-call"
+                        data-contact="Sister">
+
+                        📞
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="network-panel">
+
+                <div class="network-icon">
+                    👥
+                </div>
+
+                <div>
+
+                    <span>
+                        EMERGENCY NETWORK
+                    </span>
+
+                    <h2>
+                        Trusted contacts are ready
+                    </h2>
+
+                    <p>
+                        Actual contact data can be loaded
+                        from the FastAPI backend.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             LOCATION PAGE
+        =================================================== -->
+
+        <section
+            class="page"
+            id="location">
+
+
+            <div class="page-heading">
+
+                <span>
+                    LOCATION SERVICES
+                </span>
+
+                <h1>
+                    Current Location
+                </h1>
+
+                <p>
+                    Current GPS coordinates for emergency
+                    location sharing.
+                </p>
+
+            </div>
+
+
+            <div class="location-layout">
+
+
+                <div class="location-card">
+
+                    <div class="location-icon">
+                        📍
+                    </div>
+
+                    <h2>
+                        Location Ready
+                    </h2>
+
+                    <p>
+                        Allow browser location access to
+                        get your current coordinates.
+                    </p>
+
+
+                    <div class="coordinates">
+
+
+                        <div class="coordinate-box">
+
+                            <span>
+                                LATITUDE
+                            </span>
+
+                            <strong id="latitude">
+                                --
+                            </strong>
+
+                        </div>
+
+
+                        <div class="coordinate-box">
+
+                            <span>
+                                LONGITUDE
+                            </span>
+
+                            <strong id="longitude">
+                                --
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+
+                    <button
+                        id="locationButton"
+                        class="primary-action">
+
+                        📍 Get Current Location
+
+                    </button>
+
+                </div>
+
+
+                <div class="map-box">
+
+                    <div class="map-grid"></div>
+
+                    <div class="map-pin">
+                        📍
+                    </div>
+
+                    <div class="map-label">
+                        Current Position
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ==================================================
+         SOS MODAL
+    =================================================== -->
+
+    <div
+        id="sosModal"
+        class="modal-overlay">
+
+
+        <div class="modal-box">
+
+            <div class="modal-success">
+                ✓
+            </div>
+
+
+            <h2>
+                SOS Activated
+            </h2>
+
+
+            <p id="modalMessage">
+                Emergency request is being processed.
+            </p>
+
+
+            <div class="modal-information">
+
+
+                <div>
+
+                    <span>
+                        Trigger
+                    </span>
+
+                    <strong id="modalTrigger">
+                        SOS Button
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        Location
+                    </span>
+
+                    <strong id="modalLocation">
+                        Getting...
+                    </strong>
+
+                </div>
+
+
+                <div>
+
+                    <span>
+                        Backend
+                    </span>
+
+                    <strong id="modalBackend">
+                        Processing...
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <button
+                id="closeModal"
+                class="modal-close">
+
+                Close
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="vazhi-thunai.js"></script>
+
+</body>
+
+</html>
