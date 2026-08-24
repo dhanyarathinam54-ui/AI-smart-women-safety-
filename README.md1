@@ -1,1 +1,42 @@
+# Vazhi Thunai - AI Smart Women Safety
 
+## Problem Statement
+Women safety during emergency situations requires quick response and instant access to help. Existing solutions may require manual actions that are difficult during critical moments.
+
+## Proposed Solution
+Vazhi Thunai is an AI-powered women safety application that provides instant SOS alerts, voice-based emergency activation, live location sharing, and safety assistance features.
+
+## Key Features
+- One-tap SOS emergency alert
+- Voice trigger SOS activation
+- Live location sharing
+- AI-based safe route assistance
+- Emergency support system
+
+## Tech Stack
+
+### Frontend
+- HTML
+- CSS
+- JavaScript
+
+### Backend
+- Python
+- FastAPI
+
+### Tools & APIs
+- GitHub
+- Location APIs
+- Voice Processing
+
+## How to Run
+
+1. Clone the repository
+
+2. Install required dependencies
+
+3. Start the backend server
+
+4. Run the frontend application
+
+## Project Structure
