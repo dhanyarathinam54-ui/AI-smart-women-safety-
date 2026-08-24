@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+vosk
+sounddevice
+numpy
+scipy
+python-dotenv
+twilio
